@@ -22,3 +22,117 @@
 .App-link {
   color: #61dafb;
 }
+
+.border {
+  background-color: black;
+  height: 15px;
+}
+
+.normal {
+  background-color: rgb(170, 175, 170) !important;
+}
+
+.steel {
+  background-color: rgb(107, 107, 107) !important;
+}
+
+.water {
+  background-color: rgb(21, 92, 197) !important;
+}
+
+.fire {
+  background-color: rgb(236, 127, 25) !important;
+}
+
+.poison {
+  background-color: rgb(167, 39, 167) !important;
+}
+
+.ice {
+  background-color: rgb(55, 227, 250) !important;
+}
+
+.psychic {
+  background-color: rgb(209, 86, 209) !important;
+}
+
+.dark {
+  background-color: rgb(27, 27, 27) !important;
+  color: rgb(204, 200, 200);
+}
+
+.dragon {
+  background-color: rgb(9, 31, 105) !important;
+  color: rgb(204, 200, 200);
+}
+
+.fairy {
+  background-color: rgb(223, 117, 217) !important;
+}
+
+.fighting {
+  background-color: rgb(100, 72, 38) !important;
+}
+
+.ghost {
+  background-color: rgb(125, 56, 236) !important;
+}
+
+.ground {
+  background-color: rgb(204, 185, 76) !important;
+}
+
+.flying {
+  background-color: rgb(99, 196, 196) !important;
+}
+
+.grass {
+  background-color: rgb(25, 194, 25) !important;
+}
+
+.rock {
+  background-color: rgb(110, 104, 68) !important;
+}
+
+.electric {
+  background-color: rgb(228, 224, 25) !important;
+}
+
+.bug {
+  background-color: rgb(162, 207, 119) !important;
+}
+
+.cards {
+  float: left;
+  height: 25em !important;
+  width: 20em;
+  padding: 5px;
+  margin: 1em;
+  border-width: 0.25em !important;
+  border-color: black !important;
+}
+
+.cardsp {
+  float: left;
+  height: 2em !important;
+  width: 8em !important;
+  padding: 5px;
+  margin: 0.25em;
+  text-transform: capitalize;
+  text-align: center;
+  align-self: center;
+  font-weight: bold;
+}
+
+.pkimg {
+  width: 100%;
+}
+
+.pkmn {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navl {
+  font-weight: bold;
+}
