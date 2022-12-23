@@ -5,7 +5,7 @@ export default function Pokedex() {
   return (
     <Container>
       <Card body>
-        <h2>pokedex</h2>
+        <h2>WIP</h2>
       </Card>
     </Container>
   );

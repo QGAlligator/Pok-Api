@@ -104,7 +104,7 @@
 
 .cards {
   float: left;
-  height: 25em !important;
+  height: 42.5em !important;
   width: 20em;
   padding: 5px;
   margin: 1em;
@@ -135,4 +135,15 @@
 
 .navl {
   font-weight: bold;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center !important;
+}
+
+.tabl {
+  width: 112%;
+  align-self: center;
+  border-width: 0px !important;
 }
