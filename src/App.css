@@ -147,3 +147,7 @@
   align-self: center;
   border-width: 0px !important;
 }
+
+.err {
+  color: red !important;
+}
