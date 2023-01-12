@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import { useEffect, useState } from "react";
 import { ListGroup } from "react-bootstrap";
 
-export default function MonPokedex() {
+export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
   const [type1, setType1] = useState("");
   const [type2, setType2] = useState("");

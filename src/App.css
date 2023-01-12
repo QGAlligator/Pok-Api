@@ -151,3 +151,7 @@
 .err {
   color: red !important;
 }
+
+.piece {
+  width: 50px;
+}

@@ -1,11 +1,15 @@
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 
-export default function Pokedex() {
+export default function Combat() {
+  if (localStorage.getItem("jwt") == null) {
+    window.location.href = "./Auth";
+  }
+
   return (
     <Container>
       <Card body>
-        <h2>WIP</h2>
+        <h3>WIP</h3>
       </Card>
     </Container>
   );

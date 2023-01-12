@@ -37,6 +37,7 @@ export default function App() {
           {localStorage.getItem("jwt") && (
             <Button
               onClick={() => {
+                console.log("test");
                 localStorage.removeItem("jwt");
                 window.location.href = "./Auth";
               }}
