@@ -20,11 +20,11 @@ export default function LogReg() {
       .then(function (response) {
         let token = response.data.token;
         localStorage.setItem("jwt", token);
+        window.location.href = "./Pokedex";
       })
       .catch(function (error) {
         setError(error.response.data.message);
       });
-    window.location.href = "./Pokedex";
   }
 
   function reg() {
@@ -36,13 +36,13 @@ export default function LogReg() {
       .then(function (response) {
         let token = response.data.token;
         localStorage.setItem("jwt", token);
+        window.location.href = "./Pokedex";
       })
       .catch(function (error) {
         setError(error.response.data?.login);
         if (error.response.data.password)
           setError(error.response.data.password);
       });
-    window.location.href = "./Pokedex";
   }
 
   return (

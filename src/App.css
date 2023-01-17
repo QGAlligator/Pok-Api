@@ -112,6 +112,43 @@
   border-color: black !important;
 }
 
+.cardspk {
+  float: left;
+  height: 43.5em !important;
+  width: 20em;
+  padding: 5px;
+  margin: 1em;
+  border-width: 0.25em !important;
+  border-color: black !important;
+}
+
+.fightdeck {
+  background-color: grey;
+}
+
+.npkmn {
+  padding-top: 10px;
+  background-image: url("./img/HerbsBack.PNG");
+}
+
+.center {
+  text-align: center;
+}
+
+.npkmnc {
+  position: relative !important;
+  left: 37% !important;
+}
+
+.ncards {
+  height: 42.5em !important;
+  width: 20em;
+  padding: 5px;
+  margin: 1em;
+  border-width: 0.25em !important;
+  border-color: black !important;
+}
+
 .cardsp {
   float: left;
   height: 2em !important;
@@ -122,6 +159,14 @@
   text-align: center;
   align-self: center;
   font-weight: bold;
+}
+
+.fightbutton {
+  margin-top: 20%;
+  text-align: center;
+  height: 3em !important;
+  width: 7em !important;
+  font-size: 2em !important;
 }
 
 .pkimg {
@@ -140,6 +185,11 @@
 .footer {
   padding-top: 50px;
   text-align: center !important;
+}
+
+.table {
+  width: 115% !important ;
+  right: 7%;
 }
 
 .tabl {

@@ -5,7 +5,7 @@ export default function Accueil() {
   return (
     <Container>
       <Card body>
-        <h2>Bienvenue jeune dresseur sur la PokéAPi</h2>
+        <h2 className="center">Welcome young dressor in the PokeAPi</h2>
       </Card>
     </Container>
   );

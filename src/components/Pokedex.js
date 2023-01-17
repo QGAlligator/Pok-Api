@@ -40,8 +40,8 @@ export default function Pokedex() {
   useEffect(() => {
     fetch(url.current)
       .then((res) => res.json())
-      .then((data) => {
-        setPokemons(data.results);
+      .then(async (data) => {
+        await setPokemons(data.results);
         setUrl({
           current: url.current,
           next: data.next,
@@ -53,12 +53,12 @@ export default function Pokedex() {
   }, [url.current]);
 
   useEffect(() => {
-    pokemons.map((pokemon) => {
-      fetch(pokemon.url)
+    pokemons.map(async (pokemon) => {
+      await fetch(pokemon.url)
         .then((res) => res.json())
-        .then((data) => {
-          setType1((current) => [...current, data.types[0].type.name]);
-          setType2((current) => [...current, data.types[1]?.type?.name]);
+        .then(async (data) => {
+          await setType1((current) => [...current, data.types[0].type.name]);
+          await setType2((current) => [...current, data.types[1]?.type?.name]);
           setHp((current) => [...current, data.stats[0].base_stat]);
           setAtk((current) => [...current, data.stats[1].base_stat]);
           setDef((current) => [...current, data.stats[2].base_stat]);
@@ -85,7 +85,7 @@ export default function Pokedex() {
         <ListGroup.Item>
           {pokemons.map((pokemon) => (
             <Card className="cards">
-              <Card.Header className="pkmn bg-danger">
+              <Card.Header className="pkmn center bg-danger">
                 {"#" + pokemon.url.split("/")[6] + " " + pokemon.name}
               </Card.Header>
               <img
