@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
-import userEvent from "@testing-library/user-event";
 
 export default function Combat() {
   const [isFigthing, setIsFighting] = useState();
